@@ -15,7 +15,7 @@ async function runSeed() {
 
   const users: Partial<User>[] = [];
 
-  for (let i = 1; i <= 20; i++) {
+  for (let i = 1; i <= 10; i++) {
     const role = i <= 5 ? 'user' : 'admin';
     users.push({
       name: `User ${i}`,

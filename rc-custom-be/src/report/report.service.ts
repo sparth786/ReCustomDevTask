@@ -54,12 +54,6 @@ export class ReportService {
     doc.text(`Role: ${user.role}`);
     doc.moveDown(2);
 
-    doc.fontSize(14).text('Activity Metrics:', { underline: true });
-    doc.moveDown(0.5);
-    doc.text(`Total Logins: ${loginCount || 0}`);
-    doc.text(`Total Downloads: ${downloadCount || 0}`);
-    doc.moveDown(2);
-
     doc.fontSize(14).text('Recent Activities:', { underline: true });
     doc.moveDown(0.5);
 
