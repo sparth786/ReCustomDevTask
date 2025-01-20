@@ -29,7 +29,7 @@ The backend is built with [NestJS](https://nestjs.com/) and provides the server-
    ```
 
 3. Configure the environment variables:
-   Create a `.env` file in the root directory and define the following variables:
+   Create a `.env` file in the root directory and define the following variables: or copy env.example
 
    ```env
    DB_HOST=your_database_host
