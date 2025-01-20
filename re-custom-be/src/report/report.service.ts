@@ -25,10 +25,6 @@ export class ReportService {
       throw new Error('User not found');
     }
 
-    const {
-      metrics: { loginCount, downloadCount },
-    } = await this.activityService.getUsersMetrics(userId);
-
     await this.activityService.createLog(
       userId,
       'generated_report',
